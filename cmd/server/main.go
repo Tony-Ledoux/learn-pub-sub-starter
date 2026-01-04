@@ -6,8 +6,8 @@ import (
 	"os"
 	"os/signal"
 
+	"github.com/Tony-Ledoux/learn-pub-sub-starter/internal/routing"
 	"github.com/Tony-Ledoux/peril/internal/pubsub/pubsub"
-	"github.com/bootdotdev/learn-pub-sub-starter/internal/routing"
 
 	amqp "github.com/rabbitmq/amqp091-go"
 )
